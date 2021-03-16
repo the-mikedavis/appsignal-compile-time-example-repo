@@ -41,7 +41,7 @@ defmodule Asdf.MixProject do
       {:phoenix_live_reload, "~> 1.2", only: :dev},
       {:phoenix_live_dashboard, "~> 0.4"},
       {:appsignal_phoenix, "~> 2.0"},
-      {:appsignal, "~> 2.1"},
+      {:appsignal, "== 2.1.4"},
       {:telemetry_metrics, "~> 0.4"},
       {:telemetry_poller, "~> 0.4"},
       {:gettext, "~> 0.11"},
