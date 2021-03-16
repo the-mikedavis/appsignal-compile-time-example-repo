@@ -41,7 +41,7 @@ defmodule Asdf.MixProject do
       {:phoenix_live_reload, "~> 1.2", only: :dev},
       {:phoenix_live_dashboard, "~> 0.4"},
       {:appsignal_phoenix, "~> 2.0"},
-      {:appsignal, "~> 2.1"},
+      {:appsignal, git: "git@github.com:the-mikedavis/appsignal-elixir", ref: "82dedb3f8fabd1220cb7886975839d7ebdd61186", override: true},
       {:telemetry_metrics, "~> 0.4"},
       {:telemetry_poller, "~> 0.4"},
       {:gettext, "~> 0.11"},
