@@ -1,5 +1,11 @@
 # Asdf
 
+> This repo is a minimum example for
+> [`appsignal/appsignal-elixir#643`](https://github.com/appsignal/appsignal-elixir/issues/643).
+> This has been patched since v2.1.6! Thanks appsignal team :)
+
+---
+
 Fails to compile without the appsignal configuration being set at compile-time.
 
 Steps to make one of these repos:
